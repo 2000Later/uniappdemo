@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/index/index",
+    "pages/detail/index",
+    "pages/my/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#282bb2",
+    "borderStyle": "black",
+    "backgroundColor": "#409eff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/img/tabbar/f1.png",
+        "selectedIconPath": "/static/img/tabbar/f1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/detail/index",
+        "iconPath": "static/img/tabbar/f2.png",
+        "selectedIconPath": "static/img/tabbar/f2.png",
+        "text": "智能导办"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/img/tabbar/f3.png",
+        "selectedIconPath": "/static/img/tabbar/f3.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
